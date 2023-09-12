@@ -5,25 +5,22 @@
 
 #### DESCRIPTION 
 
-<p>Stacks and Queues in C – Master the Concepts of LIFO & FIFO
-Get Certified in C Programming for Free and Take Your Skills to the Next Level
+####**Stack:**
 
-After getting well-versed with linked lists and arrays in C, you are now ready to explore a new concept, that is stacks and queues. Both stacks and queues in C are data structures that can be implemented using either arrays or linked lists.
+- A Stack is a linear data structure that follows the LIFO principle, which stands for "Last In, First Out."
+- The last element added to the stack is the first to be removed. Imagine a stack of plates: the last plate you place on top is the first to be removed.
+- The fundamental operations on a stack are "push" (add an element) and "pop" (remove an element).
+- Stacks are commonly used in a variety of applications, such as managing function calls in a call stack in programming or in back navigation in a web browser.
 
-Newbies to programming often find it cumbersome to implement stacks and queues in C as it requires a thorough knowledge of all the concepts of C that we have covered so far. So, we will understand each and every important concept involved in stacks and queues in C in detail so that you would develop a clear understanding of the topic.
+####**Queue:**
 
-In this Stacks and Queues in C tutorial, we will discuss:
+- A Queue is another linear data structure that follows the FIFO principle, which stands for "First In, First Out."
+- This implies that the first element added to the queue is the first to be removed. Imagine a line of people waiting in a store: the first person to arrive is the first to be served.
+- The basic operations on a queue are "enqueue" (add an element) and "dequeue" (remove an element).
+- Queues are used in situations where it is important to maintain a specific order of items, such as in managing tasks in an operating system or printing documents on a printer.
 
-    Stack in C
-    Array implementation of a Stack
-    Linked list implementation of a Stack
-    Applications of Stack
-    Queue in C
-    Array implementation of a Queue
-    Linked list implementation of a Queue
-    Circular Queue
-    Applications of Queue
+####**Stacks and queues** 
 
-If we want to learn this concept then we have to go deep inside it. That’s why we are going to discuss its key topics, which will be helping us to grasp the concept in an efficient way. So let’s start –</p>
+They are data structures that are used to manage elements in a specific order. Stacks follow the LIFO principle, while queues follow the FIFO principle, and each has unique applications in solving programming problems and managing data in various situations.
 
-[![Stacks and Queues](https://www.designveloper.com/wp-content/uploads/2021/03/Queues-applications.png "Stacks and Queues")](htthttps://www.designveloper.com/wp-content/uploads/2021/03/Queues-applications.png:// "Stacks and Queues")
+[![Stack and Queues](https://upload.wikimedia.org/wikipedia/commons/c/c9/QUEUE_VS_STACK.png "Stack and Queues")](http://https://upload.wikimedia.org/wikipedia/commons/c/c9/QUEUE_VS_STACK.png "Stack and Queues")
