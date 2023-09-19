@@ -39,7 +39,7 @@ typedef struct instruction_s
 void pint(stack_t **stack, unsigned int line_num);
 void free_stack(stack_t *head);
 int pushint(char *list, int ln);
-int _strcmp(char *opcode, char *list);
+int strcmp(char *opcode, char *list);
 void add(stack_t **stack, unsigned int line_num);
 void swap(stack_t **stack, unsigned int line_num);
 void pop(stack_t **stack, unsigned int line_num);
