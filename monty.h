@@ -8,7 +8,6 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <sys/syscall.h>
-#include <string.h>
 
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
