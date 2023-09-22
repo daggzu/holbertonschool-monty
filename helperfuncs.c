@@ -7,7 +7,7 @@
  * Return: 0
  */
 
-int _strcmp(char *opcode, char *list)
+int const_strcmp(char *opcode, char *list)
 {
 while (*list != '\0')
 {
