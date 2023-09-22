@@ -60,7 +60,7 @@ for (ln = 1, n = 0; string[n + 1]; n++, ln++)
 {
 if (strcmp("push", string[n]))
 push(&stack, ln, pushint(string[n], ln));
-else if (_strcmp("nop", string[n]))
+else if (strcmp("nop", string[n]))
 ;
 else
 {
